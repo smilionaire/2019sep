@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.sep2019{
+	width: 100%;
+	height: 100vh;
+}
+.sep2019 img{
+	width: 100%;
+	height: 50%;
+	margin-top: 27px;
+}
+.sep2019 a{
+	text-decoration: none;	
+	color: #000;
+}
+.sep2019 h1{
+	border: 2px solid black;
+	background-color: skyblue;
+	margin-top: 25px;
+	text-align: center;
+}
+.sep2019 i{
+	color: #000;
+}
+@media only screen and (min-width: 1100px){
+.sep2019 img{
+	width: 50%;
+	height: 100%;
+}
+.sep2019 h1{
+	margin-left: 5px;
+	width: 49%;
+	border: 4px solid black;
+}
+}
